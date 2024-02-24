@@ -1,0 +1,35 @@
+
+body{
+    background-image: url(img/bg.jpg);
+    background-size: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover{
+    color: #0BA2C0;
+    transition: 0.25s ;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.ul-list,ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.ul-list,.logo{
+    color: #fff;
+}
+hr{
+    width: 80%;
+    opacity: 0.2;
+}
